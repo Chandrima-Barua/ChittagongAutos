@@ -1,0 +1,82 @@
+#comment {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+.wrapper{
+    background-color: #c7c7c7;
+}
+.form-group{
+    border: 1px solid ;
+    padding: 8px;
+}
+
+#comment td, #comment th {
+    /*border: 1px solid #ddd;*/
+    padding: 8px;
+}
+
+
+#comment th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    /*background-color: #4CAF50;*/
+    color: Black;
+    text-decoration: underline;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.form-inline {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+
+
+.form-inline input[type="name"] {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid black;
+}
+.form-inline input[type="comment"] {
+    /*vertical-align: middle;*/
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    width: 50%;
+    background-color: #fff;
+    border: 2px solid black;
+}
+
+.form-inline button {
+    padding: 10px 20px;
+    background-color: #23586b;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+}
+.form-inline button[disabled]{
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
+/*.form-inline button:hover {*/
+/*    background-color: royalblue;*/
+/*}*/
+
+@media (max-width: 800px) {
+    .form-inline input {
+        margin: 10px 0;
+    }
+
+    .form-inline {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
