@@ -1,0 +1,4 @@
+1. Set up your local server with xampp/wamp
+2. Create a database in phpmyadmin named chittagongautos
+3.Import the chittagongautos.sql" file from the database directory
+4. Hit the url "http://localhost/ChittagongAutos/commnet.php"
